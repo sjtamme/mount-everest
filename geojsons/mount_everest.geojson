@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "mount_everest",
+"features": [
+{ "type": "Feature", "properties": { "LAT": 27.988368, "LONG": 86.92454, "DMS_LAT": "27:59:18N", "DMS_LONG": "86:55:28E", "MGRS": "45RVL9258095916", "JOG": "NG45-02", "FC": "T", "DSG": "MT", "PC": null, "CC1": "CH,NP", "ADM1": null, "POP": null, "ELEV": null, "CC2": null, "NT": "C", "LC": "eng", "SHORT_FORM": null, "GENERIC": null, "SORT_NAME_RO": "MOUNTEVEREST", "FULL_NAME_RO": "Mount Everest", "FULL_NAME_ND_RO": "Mount Everest", "SORT_NAME_RG": "EVEREST MOUNT", "FULL_NAME_RG": "Everest, Mount", "FULL_NAME_ND_RG": "Everest, Mount", "NOTE": null, "MODIFY_DATE": "2017-10-26", "DISPLAY": "1,2,3,4,5", "NAME_RANK": 1, "NAME_LINK": null, "TRANSL_CD": null }, "geometry": { "type": "Point", "coordinates": [ 86.92454, 27.988368 ] } }
+]
+}

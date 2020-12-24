@@ -154,27 +154,35 @@
             <div class="first-column">
                 <h3>About Mount Everest</h3>
                 <p>
-                    Info about Mount Everest.
+                    Mount Everest, sitting on the border of Nepal and Tibet, is the tallest mountain in the world. The summit sits at 29,035 feet.
+                    Although 17 trails have been traveled to the summit of Mount Everest, almost everyone makes the climb via one of two routes,
+                    the South Col route starting in Nepal or the Northeast Ridge route starting in Tibet. Each route has a base camp, making up the two
+                    base camps on the mountain. More camps along the trail allow climbers to adjust to the high altitude while ascending, but some visitors
+                    just hike to a base camp and don't ascend any further. You can "tour" an Everest base camp on <a href="https://www.nationalgeographic.com/adventure/2019/05/everest-base-camp-daily-life/">National Geographic's</a> website. 
                 </p>
 
                 <hr>
                 <h3>Data used in this project</h3>
                 <p>
-                    **EDIT** 
+                    Mount Everest location point extracted from Nepal's country file published by
+                    the <a hred="https://geonames.nga.mil/gns/html/namefiles.html">GEONet Names Server (GNS)</a>.
+                    Data accessed December, 2020. Contours were extracted from a STRM 1 arc-second global raster digital
+                    elevation model. This data can be accessed from <a href="https://earthexplorer.usgs.gov/">Earth Explorer</a>.
                 </p>
 
                 <hr>
-                <h3>Tools used in this project**EDIT**</h3>
+                <h3>Tools used in this project</h3>
                 <ul>
+                    <li>PostGIS was used to store/query Nepal's dataset.</li>
                     <li>Data is shown on Mapbox web map with geolocation services enabled. If the map got popular it would require a fee to use.</li>
                     <li>GDAL and QGIS 3.16 to convert raster elevation units and create contours.</li>
                 </ul>
 
 
                 <hr>
-                <h3>Project assets***</h3>
+                <h3>Project assets</h3>
                 <ul>
-                    
+                    <li><a href="geojsons/mount_everest.geojson">GeoJSON file of Mount Everest's point.</a></li>
                     <!-- <li><a href="arches_us.geojson" download>point locations GeoJSON</a></li>-->
                 </ul>
                 </p>
@@ -184,7 +192,7 @@
             <div class="column">
                 <img class="max-image-width" src="graphics/everest-south-col-opens.jpg"
                     title="Gray&#x27;s Arch">
-                <div class="linkbox">Photograph by <a href="https://www.tourismmail.com/climbing-route-to-everest-south-col-opens">Tourism Mail</a></div>
+                <div class="linkbox">Photograph of the South Col Route by <a href="https://www.tourismmail.com/climbing-route-to-everest-south-col-opens">Tourism Mail</a></div>
                <br>
                <br>
                <br>
@@ -197,7 +205,7 @@
                <br>
                  <img class="max-image-width" src="graphics/north.jpg"
                 title="Gray&#x27;s Arch">
-            <div class="linkbox">Photograph by <a href="https://axeoneverest.com/images-from-everest/">"Rowing from Home to Home"</a></div>
+            <div class="linkbox">Photograph of the Northeast Ridge Route by <a href="https://axeoneverest.com/images-from-everest/">"Rowing from Home to Home"</a></div>
             </div>
         </div>
 
@@ -210,7 +218,7 @@
         <ul>
             <li>See my projects on GitHub: <a href="https://github.com/sjtamme">Sjtamme.</a></li>
                   <li>Connect with me on <a href="https://www.linkedin.com/in/sarah-jane-tamme-598b76164">Linkedin</a>.</li>
-                  <li>Check out my <a href='https://www.facebook.com/sarah.tamme'>Facebook page</a>.</li>
+                  <li>Check out the University of Kentucky's <a href='https://newmapsplus.as.uky.edu/'>New Maps Plus program</a>.</li>
           </ul>
     </section>
 </body>
